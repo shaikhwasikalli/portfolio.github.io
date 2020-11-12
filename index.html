@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wasik Portfolio</title>
+   <link rel="stylesheet" type="text/css" href="style.css">
+   <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link href="https://fonts.googleapis.com/css2?family=Expletus+Sans:ital,wght@1,600&family=Faster+One&family=Philosopher:ital,wght@1,700&family=Sansita+Swashed:wght@400;500&display=swap" rel="stylesheet">
+
+</head>
+<body>
+      <nav class="navbar  navbar-expand-md fixed-top logox">
+        <a href="#" class="navbar-brand text-warning font-weight-bold">
+          <img src="./Images/logo.png" alt="">Shaikh Wasik Alli
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+           <span class="navbar-toggler-icon">TAP</span>
+           </button>
+
+           <div class="collapse navbar-collapse text-right" id="collapsibleNavbar">
+            <ul class="navbar-nav ml-auto">
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="#Services">Services</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#Portfolio">photography</a>
+                </li>
+               
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contacts</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#aboutme">AboutMe</a>
+              </li>
+            </ul>
+           </div>
+      
+      </nav>
+
+      <!--carousel parts-->
+
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active" id="wasik">
+            <img class="d-block w-100" src="./Images/carou9.jpg" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="./Images/carou8.jpg" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="./Images/carou7.jpg" alt="Third slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+
+    <!--my service part-->
+    <section class="container-fluid text-center services" id="Services">
+        <h1>MY SERVICES</h1>
+
+        <div class="row serviceset">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
+                <div class="imgset d-block m-auto">
+                <i class="fa fa-area-chart fa-3x"></i></div>
+
+              <h2 class="text-info servc">WEB DEVELOPE & DESIGN</h2>
+              <img src="./Images/servc2.jpg" height="100%"width="100%">
+            </div>
+
+           <div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
+              <div class="imgset d-block m-auto">
+                <i class="fa fa-wpexplorer fa-3x"></i>
+              </div>
+
+              <h2 class="text-info servc">RESPONSIVE WEBSITE</h2>
+              <img src="./Images/servc.jpg" height="70%"width="80%">
+           </div>
+
+           <div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
+              <div class="imgset d-block m-auto">
+                <i class="fa fa-angellist fa-3x"></i>
+              </div>
+
+              <h2 class="text-info servc">PHOTOGRAPHY & EDITS</h2>
+              <img src="./Images/servc3.jpg" height="70%" width="80%">
+           </div>
+       </div>
+       </section>
+
+    <!--ABOUT ME PART-->
+
+    <div class="container aboutme" id="aboutme">
+      <h2>--ABOUT ME--</h2>
+      <div class="row aboutme2">
+      <div class="col-md-6 myphoto">
+        <img src="./Images/wasik.jpg">
+      </div>
+      <div class="col-md-6">
+        <div class="card text-warning bg-info mb-3">
+          <div class="card-header text-danger font-weight-bold">Who I am !</div>
+          <div class="card-body">
+            <h5 class="card-title">I'm Wasik and I'm a web developer.</h5>
+            <p class="card-text text-left">I am a IT professional student with a proven track record in develope websites,
+              and managing databases. I have strong skills as well as excellent interpersonal skills.
+              I am eager to be challenged in order to grow and further improve my IT skills. My greatest passion is in life is using my technical know-how to benefit other people and organisations.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+ <!--ABOUT ME PART END -->
+
+<div class="container myskill" id="skill">
+  <h2>--MY SKILLS--</h2>
+  <div class="row myskill2">
+    <div class="col-md-6">
+      <p class="text-left text-warning">I have knowledge on computer programming languages like  (Java,HTML (HyperText Markup Language),JavaScript,C, C++.
+        Which is coming to a web developer/design I learned basics HTML,CSS,JS,Bootstrap,PHP,MYSQL,PS.
+      </p>
+      <h5 class="text-danger">PROJECT-</h5>
+      <p class="text-info">I have done a project Which is a student information table database which can be add, edit & delete and its information store in database.
+      I used PHP,HTML,CSS,MYSQL database in this project.</p>
+    </div>
+    <div class="col-md-6">
+      <h6 class="text-left text-success">HTML</h6>
+      <div class="progress">
+        <div class="progress-bar  progress-bar-striped progress-bar-animated bg-success" style="width:90%">90%</div>
+      </div>
+      <h6 class="text-left text-info">CSS</h6>
+      <div class="progress">
+        <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" style="width:85%">85%</div>
+      </div>
+      <h6 class="text-left text-danger">JAVASCRIPT</h6>
+      <div class="progress">
+        <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" style="width:60%">60%</div>
+      </div>
+      <h6 class="text-left text-primary">BOOTSTRAP</h6>
+      <div class="progress">
+        <div class="progress-bar progress-bar-striped progress-bar-animated bg-primary" style="width:70%">70%</div>
+      </div>
+      <h6 class="text-left text-dark">PHP</h6>
+      <div class="progress">
+        <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark" style="width:65%">65%</div>
+      </div>
+      <h6 class="text-left text-secondary">MYSQL</h6>
+      <div class="progress">
+        <div class="progress-bar progress-bar-striped progress-bar-animated bg-secondary" style="width:80%">80%</div>
+      </div>
+    </div>
+  </div>
+</div>
+    <!--portfolio parts-->
+
+     <section class="portfolio" id="Portfolio">
+         <div class="container text-center">
+             <h1>--PHOTOGRAPHY--</h1>
+             <p>I love to photography with artworks, here I have some pictures. </p>
+             <p class="text-info">Vist my official photography page -
+              <a href="https://www.instagram.com/picxellence31/" target="_blank"><i class="fa fa-instagram"style="color:red;"></i></a>
+             </p>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card hovers">
+                        <img src="./Images/cardss.jpg" class="card-img"height="300px" width="200px">
+                       <!-- <div class="card-body">
+                            <h2 class="card-title">Capture</h2>
+                            <p class="card-text">Awesome conceptual.</p>
+                        </div>-->
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card hovers">
+                        <img src="./Images/card2.jpg" class="card-img"height="300px" width="200px">
+                       <!-- <div class="card-body">
+                            <h2 class="card-title">Greeny</h2>
+                            <p class="card-text">Some artworks effects.</p>
+                        </div>-->
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card hovers">
+                        <img src="./Images/card3.jpg" class="card-img"height="300px" width="200px">
+                        <!--<div class="card-body">
+                            <h2 class="card-title">Micro-Shot</h2>
+                            <p class="card-text">conceptual click</p>
+                        </div>-->
+                    </div>
+                </div>
+            </div> 
+            <!--2nd row-->
+            <div class="row cardset">
+                <div class="col-md-4">
+                    <div class="card hovers">
+                        <img src="./Images/card4.jpg" class="card-img"height="300px" width="200px">
+                       <!-- <div class="card-body">
+                            <h2 class="card-title">Sky mapping</h2>
+                            <p class="card-text">Nature shot</p>
+                        </div>-->
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card hovers">
+                        <img src="./Images/card5.jpg" class="card-img"height="300px" width="200px">
+                       <!-- <div class="card-body">
+                            <h2 class="card-title">High Artwork</h2>
+                            <p class="card-text">Love artworks</p>
+                        </div>-->
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card hovers">
+                        <img src="./Images/card6.jpg" class="card-img" height="300px" width="200px">
+                       <!-- <div class="card-body">
+                            <h2 class="card-title">Flower</h2>
+                            <p class="card-text">Beauty of nature.</p>
+                        </div>-->
+                    </div>
+                </div>
+            </div>
+            </div>
+     </section>
+     <!-- MY TEAM PARTS
+
+     <section class="team" id="teams">
+         <div class="container text-center">
+         <h1>My Amazing Team</h1>
+         <p>Web Developers and Designer in frontend devs.</p>
+
+         <div class="row teamset">
+            <div class="col-lg-4 col-md-4 col-sm-10 col-12 d-block m-auto">
+                <figure class="figure">
+                    <img src="./priya.jpg" class="figure-img rounded-circle"height="250px" width="250px">
+                    <figcaption>
+                        <h4>Bhanupriya.B</h4>  
+                        <p class="figure-caption">Fontend web developer</p>           
+                    </figcaption>
+                </figure>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-sm-10 col-12 d-block m-auto">
+                <figure class="figure">
+                    <img src="./wasik.jpg" class="figure-img img-fluid rounded-circle"height="250px" width="250px">
+                    <figcaption>
+                        <h4>S.Wasik</h4>  
+                        <p class="figure-caption">Web Developer/UI Developer</p>           
+                    </figcaption>
+                </figure>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-sm-10 col-12 d-block m-auto">
+                <figure class="figure">
+                    <img src="./henry1.jpg" class="figure-img img-fluid rounded-circle"height="250px" width="250px">
+                    <figcaption>
+                        <h4>M.henry</h4>  
+                        <p class="figure-caption">Web Designer</p>           
+                    </figcaption>
+                </figure>
+            </div>
+         </div>
+        </div>
+      </section>
+    </section>
+   -->
+    <!--Reach us parts-->
+    <div class="container">
+          <div class="reach-us" id="contact">
+          <h2 class="text-center text-success">--CONTACT--</h2>
+          <p class="text-center text-warning">Contact me!</p>
+          
+        <form>
+          <div class="row col-md-12">
+              <div class="form-group col-md-6">
+                <label for="fname"class="text-info">Full Name :</label>
+                <input type="text" class="form-control" id="fname" name="fname" placeholder="Enter your fullname" autocomplete="off" required>
+              </div>
+             <!-- <div class="form-group col-md-6">
+                <label for="lname">LAST NAME :</label>
+                <input type="text" class="form-control" id="lname" name="lname" placeholder="Enter your last name"autocomplete="off" required>
+              </div>-->
+            <div class="form-group col-md-6">
+              <label for="inputAddress"class="text-info">Address/Location :</label>
+              <input type="text" class="form-control" id="inputAddress" name="address"placeholder="in details...">
+            </div>
+            <div class="form-group col-md-6">
+              <label for="emails"class="text-info">E-mail :</label>
+              <input type="email" class="form-control" id="emails"name="email" placeholder="example.00@gmail.com"autocomplete="off" required>
+            </div>
+
+            <div class="form-group col-md-6">
+              <label for="emails"class="text-info">Website Link :</label>
+              <input type="link" class="form-control" name="website" placeholder="If you have any website/socialmedia!">
+            </div>
+            <div class="form-group col-md-6">
+              <label for="numbers"class="text-info">Mobile Number :</label>
+              <input type="number" class="form-control" id="numbers"name="number" placeholder="Enter number" required>
+            </div>
+            <!--  <div class="form-group col-md-6">
+                <label for="inputState">You are a!</label>
+                <select id="inputState"name="type" class="form-control">
+                  <option selected>Select...</option>
+                  <option>Businessman</option>
+                  <option>Employer</option>
+                  <option>Designer</option>
+                </select>
+              </div>-->
+            <div class="form-group col-md-6">
+              <label for="Textarea1"class="text-info">MESSAGE:</label>
+              <textarea class="form-control" id="Textarea1" name="message" rows="3" placeholder="Text here..."></textarea>
+            </div>
+            <button type="submit" name="submit" class="btn btn-info">Submit!</button>
+          </form>
+        </div>
+    </div>
+  </div>
+    <!--Footer,contacts details parts-->
+    <section class="footering">
+    <footer class="page-footer ">
+        <div class="bg-success">
+            <div class="container">
+                <div class="row py-4 d-flex align-items-center">
+
+                    <div class="col-sm-12 text-center icon2 font-weight-bold">SOCIAL MEDIA -
+                      
+                      <a href="https://www.facebook.com/wasik.sk" target="_blank"><i class="fa fa-facebook mr-4"style="color:blue;"></i></a>
+                      <a href="https://www.linkedin.com/in/shaikh-wasik-211364196/" target="_blank"><i class="fa fa-linkedin mr-4"style="color:blue;"></i></a>
+                      <a href="https://github.com/shaikhwasikalli/portfolio.github.io" target="_blank"><i class="fa fa-github mr-4"style="color:gray;"></i></a>  
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container text-center text-md-left mt-5">
+            <div class="row">
+
+                <div class="col-md-3 mx-auto mb-4">
+                    <div class="text-warning text-uppercase font-weight-bold">ABOUT US</div>
+                    <p class="mt-2">“Let us take you into a deeper experience, make a moment a lasting conveyable memory. 
+                        Let us help build your tribe.”</p>
+                </div>
+                <div class="col-md-2 mx-auto mb-4">
+                    <div class="text-warning text-uppercase font-weight-bold">Services</div>
+                    
+                    <ul class="list-unstyled">
+                        <li class="my-2"><a href="#">Responsive</a></li>
+                        <li class="my-2"><a href="#">UI design</a></li>
+                        <li class="my-2"><a href="#">Frontend</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-2 mx-auto mb-4">
+                    <div class="text-warning text-uppercase font-weight-bold">Direct Links</div>
+                    
+                    <ul class="list-unstyled">
+                        <li class="my-2"><a href="#Services">Services</a></li>
+                        <li class="my-2"><a href="#Portfolio">Portfolio</a></li>
+                        <li class="my-2"><a href="#skill">Projects</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-3 mx-auto mb-4" id="contacts">
+                    <div class="text-warning text-uppercase font-weight-bold">Contacts</div>
+                    
+                    <ul class="list-unstyled">
+                        <li class="my-2"><i class="fa fa-home" style="color:cornflowerblue;">  Cuttack, Odisha India.</i></li>
+                        <li class="my-2"><i class="fa fa-envelope" style="color:pink;">  skwasikalli98@gmail.com</i></li>
+                        <li class="my-2"><i class="fa fa-phone text-info">  +91 XXXXXXXX25</i></li>
+                        <li class="my-2"><i class="fa fa-whatsapp" style="color:green;"> +91 XXXXXXXX25</i></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-copyright text-center py-3">
+                <p><a href="#wasik">BACK TO TOP</a></p>
+                <p>designed by Shaikh Wasik Alli</p>
+                <p class="text-danger"><strong>Stay Home, Stay Safe !</strong></p>
+                <p>&copy; Copyright
+                  <a href="">ShaikhWasikAlli2020</a>
+                </p>
+        </div>
+    </footer>
+</main>
+</section>
+</body>
+</html>
